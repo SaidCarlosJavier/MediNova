@@ -1,13 +1,13 @@
-package MediNova.SistemaMedico;
+package com.sistema.sistema_hospitalario;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MediNovaApplication {
+public class SistemaHospitalarioApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MediNovaApplication.class, args);
+		SpringApplication.run(SistemaHospitalarioApplication.class, args);
 	}
 
 }
