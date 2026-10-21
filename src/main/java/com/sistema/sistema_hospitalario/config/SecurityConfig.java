@@ -28,8 +28,7 @@ import java.util.List;
 @EnableMethodSecurity(prePostEnabled = true)
 @RequiredArgsConstructor
 public class SecurityConfig {
-
-    private final UserDetailsServiceImpl userDetailsService;
+     private final UserDetailsServiceImpl userDetailsService;
     private final JwtAuthenticationFilter jwtAuthenticationFilter;
     private final JwtAuthenticationEntryPoint jwtAuthenticationEntryPoint;
 
@@ -87,4 +86,5 @@ public class SecurityConfig {
 
         return http.build();
     }
+   
 }
